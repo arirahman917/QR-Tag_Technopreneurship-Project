@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["php82", "php82Extensions.mongodb", "php82Extensions.pdo", "php82Extensions.mbstring", "php82Extensions.xml", "php82Extensions.curl", "composer"]
+nixPkgs = ["php84", "php84Extensions.mongodb", "php84Extensions.pdo", "php84Extensions.mbstring", "php84Extensions.xml", "php84Extensions.curl", "php84Extensions.tokenizer", "php84Extensions.fileinfo", "composer"]
 
 [phases.install]
 cmds = ["composer install --no-dev --optimize-autoloader"]
